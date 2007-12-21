@@ -10,6 +10,7 @@ Source:     http://www.grigna.com/diego/linux/countrycodes/%{name}-%{version}.ta
 URL:        http://www.grigna.com/diego/linux/countrycodes
 License:    GPL
 Group:      Networking/Other
+BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 Country codes is an ISO 3166 country code finder. It is mainly used to
