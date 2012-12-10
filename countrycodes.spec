@@ -39,3 +39,51 @@ rm -rf %{buildroot}
 %{_bindir}/*
 %{_mandir}/man1/*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.5-9mdv2011.0
++ Revision: 617432
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.0.5-8mdv2010.0
++ Revision: 425024
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.0.5-7mdv2009.0
++ Revision: 243687
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 18 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.5-5mdv2008.1
++ Revision: 132416
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import countrycodes
+
+
+* Tue Aug 01 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.5-4mdv2007.0
+- %%mkrel
+- clean buildroot before install
+
+* Thu Jul 28 2005 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.5-3mdk 
+- spec cleanup
+
+* Fri Jul 09 2004 Guillaume Rousse <guillomovitch@mandrake.org> 1.0.5-2mdk 
+- rpmbuilupdate aware
+
+* Sat Feb 28 2004 Guillaume Rousse <guillomovitch@mandrake.org> 1.0.5-1mdk
+- new version
+
+* Sat Jan 04 2003 Guillaume Rousse <g.rousse@linux-mandrake.com> 1.0.3-3mdk
+- rebuild
+
+* Tue Jul 2 2002 Guillaume Rousse <g.rousse@linux-mandrake.com> 1.0.3-2mdk
+- corrected URL
+
+* Sat Feb 23 2002 Guillaume Rousse <g.rousse@linux-mandrake.com> 1.0.3-1mdk
+- first mdk release
