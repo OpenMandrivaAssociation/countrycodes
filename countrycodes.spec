@@ -1,6 +1,6 @@
 %define name        countrycodes
 %define version     1.0.5
-%define release     %mkrel 9
+%define release     10
 
 Name:       %{name}
 Version:    %{version}
