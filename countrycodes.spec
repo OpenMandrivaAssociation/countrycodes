@@ -7,7 +7,7 @@ Version:    %{version}
 Release:    %{release}
 Summary:    Country code finder
 Source:     http://www.grigna.com/diego/linux/countrycodes/%{name}-%{version}.tar.bz2
-URL:        http://www.grigna.com/diego/linux/countrycodes
+URL:        https://www.grigna.com/diego/linux/countrycodes
 License:    GPL
 Group:      Networking/Other
 BuildRoot:  %{_tmppath}/%{name}-%{version}
